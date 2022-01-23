@@ -1,0 +1,16 @@
+{
+    "name": "knack-assignment",
+    "version": "1.0.0",
+    "description": "An assignment submitted to Knack",
+    "main": "solution.js",
+    "scripts": {
+        "start": "node solution.js",
+        "test": "mocha --recursive --exit"
+    },
+    "devDependencies": {
+        "mocha": "^9.1.4"
+    },
+    "dependencies": {
+        "chai": "^4.3.4"
+    }
+}
