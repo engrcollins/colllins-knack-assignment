@@ -33,11 +33,10 @@ modData = JSON.parse(modData)
 // writing "clean_application.json"
 fs.writeFile("clean_application.json", modData, 'utf8', function (err) {
   if (err) {
-      console.log("An error occured while writing JSON Object to File.");
+      console.log("An error occurred while writing JSON Object to File.");
       return console.log(err);
   }
-  console.log("JSON file has been saved.");
+  console.log("JSON file has been processed and saved.");
   return;
 });
 
-//TO DO: Unit tests on the business logic
